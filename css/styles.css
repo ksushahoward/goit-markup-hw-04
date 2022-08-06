@@ -257,11 +257,6 @@ span {
   border-radius: 4px;
 }
 
-.features-img {
-  width: 70px;
-  height: 70px;
-}
-
 .features-list {
   display: flex;
   column-gap: 30px;
