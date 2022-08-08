@@ -245,7 +245,6 @@ span {
 }
 
 .feature-icon {
-  text-align: center;
   padding: 25px 100px;
   border-radius: 4px;
 
@@ -363,11 +362,7 @@ span {
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: var(--accent-color);
-}
-
-.team-soc-link:hover .team-soc-icon,
-.team-soc-link:focus .team-soc-icon {
-  fill: var(--icon-hover-color);
+  color: var(--icon-hover-color);
 }
 
 /* --------------------CLIENTS-------------------- */
@@ -413,11 +408,7 @@ span {
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--accent-color);
-}
-
-.clients-link:hover .client-icon,
-.clients-link:focus .client-icon {
-  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* --------------------FOOTER-------------------- */
